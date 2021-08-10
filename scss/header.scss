@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #ffffff;
+    height: 150px;
+    border-bottom: #E5E5E5;
+  }
+  
+  .navbar-nav{
+    display: flex;
+    justify-content: right;
+  }
+  .nav-item{
+    font-family:'Open Sans' ;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 19px;
+    
+    }
+  
+  .navbar li a:hover {
+    background-color: #B2D235 !important;
+    border-radius: 17px;
+  }
+  
+  .content{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(255, 0, 200);
+  }
