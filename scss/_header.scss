@@ -1,0 +1,41 @@
+.header{
+  .navbar {
+    height: 90px;
+    padding: 0px;
+  }
+
+  .navbar-branch {
+    margin-left: 130px;
+  }
+
+  .navbar-nav {
+    margin-right: 130px;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .nav-link {
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+    .nav-item li a:hover {
+      background-color: #B2D235 !important;
+      border-radius: 17px;
+    }
+  }
+  
+    .navbar-toggler-icon {
+    cursor: pointer;
+  }
+}
+  
+.footer {
+ }
