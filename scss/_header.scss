@@ -1,15 +1,15 @@
-.header{
+.header {
   height: 90px;
 
   .navbar {
     padding: 0px;
-    background-color: #FFF ;
+    background-color: $while_color ;
   }
   
   .navbar-branch {
     margin-left: 130px;
 
-    .navbar-logo{
+    .navbar-logo {
       height: 70px;
     }
   }
@@ -25,18 +25,17 @@
     font-size: 14px;
     line-height: 19px;
 
-    &:hover{
+    &:hover {
       background-color: $button_color;
       border-radius: 17px;
     }
   }
 
   .nav-link {
-    border: none;
+    border: 0;
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
-    
   }
  
   .navbar-toggler-icon {
