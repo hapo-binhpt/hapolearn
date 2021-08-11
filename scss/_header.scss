@@ -1,13 +1,14 @@
 .header{
+  height: 90px;
+
   .navbar {
-    height: 90px !important;
     padding: 0px;
     background-color: #FFF ;
-    }
+  }
   
   .navbar-branch {
     margin-left: 130px;
-    
+
     .navbar-logo{
       height: 70px;
     }
