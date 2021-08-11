@@ -1,11 +1,15 @@
 .header{
   .navbar {
-    height: 90px;
+    height: 90px !important;
     padding: 0px;
-  }
-
+    background-color: #FFF ;
+    }
+  
   .navbar-branch {
     margin-left: 130px;
+    .navbar-logo{
+      height: 70px;
+    }
   }
 
   .navbar-nav {
@@ -15,9 +19,13 @@
   .nav-item {
     margin-left: 15px;
     text-transform: uppercase;
-    font: 'Open Sans';
+    font: $font_Open_Sans;
     font-size: 14px;
     line-height: 19px;
+    &:hover{
+      background-color: $button_color;
+      border-radius: 17px;
+    }
   }
 
   .nav-link {
@@ -26,16 +34,9 @@
     font-size: 14px;
     line-height: 19px;
     
-    .nav-item li a:hover {
-      background-color: #B2D235 !important;
-      border-radius: 17px;
-    }
   }
-  
-    .navbar-toggler-icon {
+ 
+  .navbar-toggler-icon {
     cursor: pointer;
   }
-}
-  
-.footer {
- }
+} 
