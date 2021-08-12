@@ -36,3 +36,42 @@
     cursor: pointer;
   }
 } 
+
+@media (max-width: 769px) {
+  .navbar-expand-md .container-fluid {
+      flex-wrap: wrap !important;
+  }
+
+  .navbar-branch img {
+      width: 300px;
+      height: 61.74px;
+  }
+}
+
+@media (max-width: 415px) {
+  .navbar {
+      height: 62px;
+  }
+
+  .navbar-toggler {
+      border: none;
+      margin: 19px 21px;
+      padding: 0px;
+  }
+
+  .navbar-toggler-icon {
+      width: 18px;
+      height: 23px;
+  }
+
+  .navbar-brand {
+      margin-left: auto;
+      margin-right: 112px;
+      padding: 0px;
+  }
+
+  .navbar-brand img {
+      width: 150px;
+      height: 27px;
+  }
+}
