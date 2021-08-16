@@ -13,39 +13,55 @@
     <title>HapoLearn</title>
 </head>
 <body>
-    <div id="app">
-    <!-- Header -->
+<!-- Header -->
     <header id="header" class="container-fluid position-relative header">
-        <nav class="navbar container-fluid navbar-expand-sm navbar-light  sticky-top ">
-                <a class="navbar-brand " href="#">
-                    <img class="navbar-logo" src="./assets/imgs/Hapolearn_logo.png" alt="HapoLearn" >
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        <nav class="navbar container-fluid navbar-expand-sm navbar-light sticky-top">
+            <a class="navbar-brand " href="#">
+                <img class="navbar-logo" src="./assets/imgs/Hapolearn_logo.png" alt="HapoLearn" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
                 data-target="#navbarReponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse col-xs-12 " id="navbarReponsive">
-                    <ul class="navbar-nav ml-auto w-100 h-100 d-flex justify-content-end">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active navbar-link-element">Home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link navbar-link-element">All Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link navbar-link-element">Login/Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link navbar-link-element">Profile</a>
-                        </li>
-                    </ul>
-                </div>
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse col-xs-12 " id="navbarReponsive">
+                <ul class="navbar-nav w-100 d-flex justify-content-end">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active navbar-link-element">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link navbar-link-element">All Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-link-element">Login/Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-link-element">Profile</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>    
 
     <!-- Content -->
-    <div class="content">
-           
+    <div id="body">
+        <div class="content">
+            <div id="carousel" class="carousel_slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="banner_background d-block w-100" src="./assets/imgs/Hapolearn_banner.png" alt="First slide">
+                        <div class="carousel-caption">  
+                            <p class="slogan_line1">Learn Anytime, Anywhere</p>
+                            <p class="slogan_line2">at HapoLearn
+                                <img src="./assets/imgs/owl_logo.png" alt="" class="banner_logo"> !
+                            </p>    
+                            <p class="slogan_line3">Interactive lessons, "on-the-go" </p>
+                            <p class="slogan_line3">practice, peer support.</p>
+                            <button class="banner_button">Start Learning Now!</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>           
     </div>   
 
     <!-- Footer -->
