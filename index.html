@@ -15,7 +15,7 @@
 <body>
 <!-- Header -->
     <header id="header" class="container-fluid position-relative header">
-        <nav class="navbar container-fluid navbar-expand-sm navbar-light sticky-top">
+        <nav class="navbar container-fluid navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand " href="#">
                 <img class="navbar-logo" src="./assets/imgs/Hapolearn_logo.png" alt="HapoLearn" >
             </a>
@@ -23,8 +23,8 @@
                 data-target="#navbarReponsive">
                 <span class="navbar-toggler-icon "></span>
             </button>
-            <div class="collapse navbar-collapse col-xs-12 " id="navbarReponsive">
-                <ul class="navbar-nav w-100 d-flex justify-content-end">
+            <div class="collapse navbar-collapse align-items-center " id="navbarReponsive">
+                <ul class="navbar-nav w-100 justify-content-end">
                     <li class="nav-item active">
                         <a href="#" class="nav-link active navbar-link-element">Home</a>
                     </li>
@@ -43,26 +43,23 @@
     </header>    
 
     <!-- Content -->
-    <div id="body">
-        <div class="content">
-            <div id="carousel" class="carousel_slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="banner_background d-block w-100" src="./assets/imgs/Hapolearn_banner.png" alt="First slide">
-                        <div class="carousel-caption">  
-                            <p class="slogan_line1">Learn Anytime, Anywhere</p>
-                            <p class="slogan_line2">at HapoLearn
-                                <img src="./assets/imgs/owl_logo.png" alt="" class="banner_logo"> !
-                            </p>    
-                            <p class="slogan_line3">Interactive lessons, "on-the-go" </p>
-                            <p class="slogan_line3">practice, peer support.</p>
-                            <button class="banner_button">Start Learning Now!</button>
-                        </div>  
-                    </div>
+    <div id="body" class="body container-fluid position-relative p-0">
+        <div class="hapolearn_banner container-fluid d-flex align-items-center">
+            <div class="banner-content container d-flex flex-column">  
+                <div class="banner_title d-block">
+                    <p class="banner_title_line1">Learn Anytime, Anywhere</p>
+                    <p class="banner_title_line2">at HapoLearn
+                        <img src="./assets/imgs/owl_logo.png" alt="" class="banner_logo"> !
+                    </p>    
+                </div>
+                <div class="banner_slogan d-block">
+                    <p>Interactive lessons, "on-the-go" </p>
+                    <p>practice, peer support.</p>
+                     <button class="banner_button">Start Learning Now!</button>
                 </div>
             </div>
-        </div>           
-    </div>   
+        </div>
+    </div>          
 
     <!-- Footer -->
     <footer class="footer">
