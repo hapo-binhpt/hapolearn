@@ -13,40 +13,53 @@
     <title>HapoLearn</title>
 </head>
 <body>
-    <div id="app">
-    <!-- Header -->
+<!-- Header -->
     <header id="header" class="container-fluid position-relative header">
-        <nav class="navbar container-fluid navbar-expand-sm navbar-light  sticky-top ">
-                <a class="navbar-brand " href="#">
-                    <img class="navbar-logo" src="./assets/imgs/Hapolearn_logo.png" alt="HapoLearn" >
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        <nav class="navbar container-fluid navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img class="navbar-logo" src="./assets/imgs/Hapolearn_logo.png" alt="HapoLearn" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
                 data-target="#navbarReponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse col-xs-12 " id="navbarReponsive">
-                    <ul class="navbar-nav ml-auto w-100 h-100 d-flex justify-content-end">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active navbar-link-element">Home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link navbar-link-element">All Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link navbar-link-element">Login/Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link navbar-link-element">Profile</a>
-                        </li>
-                    </ul>
-                </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-center" id="navbarReponsive">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active navbar-link-element">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-link-element">All Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-link-element">Login/Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-link-element">Profile</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>    
 
     <!-- Content -->
-    <div class="content">
-           
-    </div>   
+    <div id="body" class="body container-fluid position-relative p-0">
+        <div class="hapolearn-banner container-fluid d-flex align-items-center">
+            <div class="banner-content container d-flex flex-column">  
+                <div class="banner-title d-block">
+                    <p class="banner-title-heading">Learn Anytime, Anywhere</p>
+                    <p class="banner-title-content">at HapoLearn
+                        <img src="./assets/imgs/owl_logo.png" alt="" class="banner-logo"> !
+                    </p>    
+                </div>
+                <div class="banner-slogan d-block">
+                    <p>Interactive lessons, "on-the-go" </p>
+                    <p>practice, peer support.</p>
+                     <button class="banner-button">Start Learning Now!</button>
+                </div>
+            </div>
+        </div>
+    </div>          
 
     <!-- Footer -->
     <footer class="footer">
