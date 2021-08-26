@@ -1,0 +1,104 @@
+.courses-item {
+  @include courses-item;
+
+  .courses-body {
+    @include courses-body;
+
+    .courses-heading {
+      @include courses-heading;
+    }
+
+    .courses-desc {
+      @include courses-desc;
+    }
+
+    .courses-btn {
+      @include courses-btn;    
+    }
+
+    .courses-btn:hover {
+      text-decoration: none;
+      color: $black_color;
+    }
+  }
+}
+  
+.courses-img-htmlcss {
+  background-color: $htmlcss-background-color;
+  @include courses-img;
+}
+
+.courses-img-lavarel {
+  background-color: $lavarel-background-color;
+  @include courses-img;
+}
+
+.courses-img-php {
+  background-color: $php-background-color;
+  @include courses-img;
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+  .courses-img-htmlcss {
+  height: 110px;
+  }
+
+  .courses-img-lavarel {
+    height: 110px;
+  }
+
+  .courses-img-php {
+    height: 110px;
+  }
+
+  .courses-item {
+
+    .courses-body {
+
+      .courses-heading {
+        font-size: 16px;
+      }
+    
+      .courses-desc {
+        font-size: 12px;
+      }
+    
+      .courses-btn {
+        font-size: 8px;
+      }
+    }
+  } 
+}
+
+@media(max-width: 767px) {
+  .courses-list {
+    margin-top: 200px;
+    
+    .courses-flex {
+      @include courses-flex;
+      align-items: center;
+    }
+  }
+
+  .courses-item {
+    justify-items: center;
+    width: 280px;
+    height: 389px;
+    margin-bottom: 30px;
+      
+    .courses-body {
+
+      .courses-heading {
+        font-size: 16px;
+      }
+    
+      .courses-desc {
+        font-size: 12px;
+      }
+    
+      .courses-btn {
+        font-size: 8px;
+      }
+    }
+  } 
+}
