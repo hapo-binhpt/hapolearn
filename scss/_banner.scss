@@ -117,8 +117,12 @@
   }
 
   .linear-gradient {
+    height: 230px;
+    overflow: visible;
+
     .transition-block {
-      height: 330px;
+      height: 310px;
+      background: linear-gradient(0deg, $linear-gradient-color, $white_color);
     }
-  }
+  }  
 }

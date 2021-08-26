@@ -22,7 +22,7 @@
     }
   }
 }
-  
+
 .courses-img-html {
   background-color: $htmlcss-background-color;
   @include courses-img;
@@ -69,9 +69,8 @@
 }
 
 @media(max-width: 545px) {
-  .courses-list {
-    margin-top: 200px;
-    
+  .courses-list {  
+    margin-top: 40px;
     .courses-flex {
       @include courses-flex;
       align-items: center;
