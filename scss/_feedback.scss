@@ -1,0 +1,29 @@
+.feedback-title {
+  font-family: $font_UTM;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 98px;
+  color: $darkblue_color;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.feedback-underline {
+  width: 328px;
+  height: 6px;
+  background-color: $green_color;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.feedback-slogan {
+  font-family: $font_UTM;
+  font-size: 25px;
+  line-height: 31px;
+  color: $text_navbar;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 705px;
+  margin-left: auto;
+  margin-right: auto;
+}

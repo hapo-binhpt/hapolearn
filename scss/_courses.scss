@@ -1,6 +1,14 @@
 .courses-item {
   @include courses-item;
 
+  .courses-top {
+    @include courses-top;
+
+    .courses-img {
+      @include courses-img;
+    }
+  }
+
   .courses-body {
     @include courses-body;
 
@@ -23,19 +31,16 @@
   }
 }
 
-.courses-img-html {
+.bg-html {
   background-color: $htmlcss-background-color;
-  @include courses-img;
 }
 
-.courses-img-lavarel {
+.bg-lavarel {
   background-color: $lavarel-background-color;
-  @include courses-img;
 }
 
-.courses-img-php {
+.bg-php {
   background-color: $php-background-color;
-  @include courses-img;
 }
 
 @media (min-width: 768px) and (max-width: 1140px) {
@@ -53,8 +58,19 @@
 
   .courses-item {
     .courses-body {
+      padding: 10px 10px;
+      
+      .courses-heading{
+        font-size: 20px;
+      }
+
       .courses-desc {
-        font-size: 12px;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
       }
     
       .courses-btn {
@@ -80,10 +96,11 @@
     margin-bottom: 30px;
       
     .courses-body {
-      padding: 0 10px;
+      padding: 0 10px !important;
 
       .courses-heading {
         margin-bottom: 0;
+        font-size: 20px;
       }
     
       .courses-desc {

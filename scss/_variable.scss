@@ -26,6 +26,7 @@ $lavarel-background-color: #DC594C;
 $rails-background-color: #E14E40;
 $java-background-color: #1B75BB;
 $php-background-color: #556598;
+$css-background-color: #24ABE2;
 
 @mixin courses-item {
   width: 100%;
@@ -36,6 +37,11 @@ $php-background-color: #556598;
 }
 
 @mixin courses-img {
+  width: 60%;
+  justify-content: center;
+}
+
+@mixin courses-top {
   height: 190px;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
@@ -51,7 +57,7 @@ $php-background-color: #556598;
 }
 
 @mixin courses-heading {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   color: $green_color;
   font-weight: 800;

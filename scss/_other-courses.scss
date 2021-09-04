@@ -23,41 +23,50 @@
   
 .other-courses-item {
   @include courses-item;
-  
+
+  .other-courses-top {
+    @include courses-top;
+
+    .other-courses-img {
+      @include courses-img;
+    }
+  }
+
   .other-courses-body {
     @include courses-body;
-  
-    .other-courses-heading{
+
+    .other-courses-heading {
       @include courses-heading;
     }
-  
+
     .other-courses-desc {
       @include courses-desc;
     }
-  
+
     .other-courses-btn {
-      @include courses-btn;
+      @include courses-btn;    
     }
 
-    .othercourses-btn:hover {
+    .other-courses-btn:hover {
       text-decoration: none;
       color: $black_color;
     }
   }
 }
+.other-courses-img {
+  @include courses-img;
+}
 
-.courses-img-css {
-  @include courses-img;
+.bg-css {
+  background-color: $css-background-color;
 }
-  
-.courses-img-rails {
+
+.bg-rails {
   background-color: $rails-background-color;
-  @include courses-img;
 }
-  
-.courses-img-java {
+
+.bg-java {
   background-color: $java-background-color;
-  @include courses-img;
 }
   
 .view-all {
@@ -105,6 +114,12 @@
     
   .other-courses-item {
     .other-courses-body {
+      padding: 10px 10px;
+
+      .other-courses-heading{
+        font-size: 20px;
+      }
+
       .other-courses-desc {
         font-size: 12px;
         }
