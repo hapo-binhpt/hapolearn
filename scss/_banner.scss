@@ -46,6 +46,16 @@
   background-color: $green_color;
 }
 
+.linear-gradient {
+  height: 65px;
+  overflow: visible;
+
+  .transition-block {
+    height: 130px;
+    background: linear-gradient(0deg, $linear-gradient_color, $white_color);
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1140px) {
   .hapolearn-banner {
     height: 350px;
@@ -105,4 +115,14 @@
     padding: 12px 52px;
     margin-top: 20px;
   }
+
+  .linear-gradient {
+    height: 230px;
+    overflow: visible;
+
+    .transition-block {
+      height: 310px;
+      background: linear-gradient(0deg, $linear-gradient-color, $white_color);
+    }
+  }  
 }
