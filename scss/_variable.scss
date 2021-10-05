@@ -27,6 +27,22 @@ $rails-background-color: #E14E40;
 $java-background-color: #1B75BB;
 $php-background-color: #556598;
 $css-background-color: #24ABE2;
+$feedback-arrow-color: #969494;
+$grey-circle-color: #C4C4C4;
+$dark-color: #505353;
+$border-text-color: #E2E2E2;
+$grey-border-color: #D9DADC;
+$rating-star-color: #F2C54F;
+$copyright-background-color: #454545;
+$title-chatbox-color: #7f7f7f;
+$chat-box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+$textsms-color: #F1F0F0;
+$messsenger-color: #3184F7;
+$text-messenger-color: #b3b3b3;
+$input_color: #F2F2F2;
+$button_login_box_shadow: inset 0px 1.5px 2px #6F8710;
+$google_account_color: #DC4E41;
+$facebook_account_color: #3B5999;
 
 @mixin courses-item {
   width: 100%;
