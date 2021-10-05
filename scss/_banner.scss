@@ -40,6 +40,11 @@
   margin-top: 40px;
   box-shadow: $button_outline;
   margin-top: 20px;
+
+  &:hover {
+    color: $darkblue_color;
+    cursor: pointer;
+  }
 }
   
 .banner-button:active {
